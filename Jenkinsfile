@@ -3,7 +3,7 @@ node {
     checkout scm
   }
   stage ("Build") {
-    sleep 10
+    sleep 20
     sh "ls -lrt"
   }
   
